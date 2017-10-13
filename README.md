@@ -1,23 +1,22 @@
-# Simple Linux kernel base rootkit
-A long time ago, i tested rootkit in 32bit Linux kernel 2.6.35 version.<br>
+# Simple Linux kernel base rootkit<br>
+A long time ago, i made rootkit in 32bit Linux kernel 2.6.35 version.<br>
 <br>
 <br>
-### Rootkit skill
-<br>
+### Rootkit skill<br>
 1. Kernel level keylogger<br>
-  If you press any key, it will logging to file.<br>
+If you press any key, it will logging to file.<br>
 <br>
 2. Keyboard injection<br>
-  If you press 'google.co.kr' string, it will change to 'facebook.com'.<br>
+If you press 'google.co.kr' string, it will change to 'facebook.com'.<br>
 <br>
 3. Module hiding<br>
-  You can't see this rootkit module, with lsmod command.<br>
+You can't see this rootkit module, with lsmod command.<br>
 <br>
 4. File copy don't allow (file mov don't allow)<br>
-  Denial, if you try file copy.<br>
+Denial, if you try file copy.<br>
 <br>
 4. Root backdoor<br>
-  You can privilege escalation to root user.<br>
+You can privilege escalation to root user.<br>
 <br>
 <br>
 ### Build<br>
