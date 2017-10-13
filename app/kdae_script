@@ -1,0 +1,30 @@
+#!/bin/bash
+
+reghelper=/app/kdae
+
+. /etc/rc.d/init.d/functions
+
+case "$1" in
+	start)
+		echo -n "Starting reghelper: "
+		daemon $reghelper t
+		echo
+		;;
+	stop)
+		echo -n "Shutting reghelper: "
+		killproc $reghelper
+		echo
+		;;
+	status)
+		status $reghelper t
+		;;
+	restart)
+		$0 stop
+		$0 start
+		;;
+	*)
+		echo "Usage: $0 {start|stop|restart|status}"
+		exit 1
+esac
+exit 0
+
