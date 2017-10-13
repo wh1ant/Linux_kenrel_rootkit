@@ -1,8 +1,8 @@
-# Simple Linux kernel base rootkit<br>
+# Simple Linux kernel base rootkit
 A long time ago, i made rootkit in 32bit Linux kernel 2.6.35 version.<br>
 <br>
 <br>
-### Rootkit skill<br>
+### Rootkit skill
 1. Kernel level keylogger<br>
 If you press any key, it will logging to file.<br>
 <br>
@@ -19,11 +19,11 @@ Denial, if you try file copy.<br>
 You can privilege escalation to root user.<br>
 <br>
 <br>
-### Build<br>
-&#35;make<br>
-&#35;cd app && make<br>
+### Build
+>&#35;make<br>
+>&#35;cd app && make<br>
 <br>
 <br>
-### Usage<br>
-&#35;insmod rootkit.ko<br>
-&#35;app/kdae<br>
+### Usage
+>&#35;insmod rootkit.ko<br>
+>&#35;app/kdae<br>
