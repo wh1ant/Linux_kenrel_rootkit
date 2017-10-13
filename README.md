@@ -1,6 +1,6 @@
 # Simple Linux kernel base rootkit
 
-A long time ago, i tested rootkit in 32bit (Ubuntu) Linux kernel 2.6.35 version.
+A long time ago, i tested rootkit in 32bit Linux kernel 2.6.35 version.
 <br>
 <br>
 ### Rootkit skill<br>
