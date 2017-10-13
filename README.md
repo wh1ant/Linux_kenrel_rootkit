@@ -12,7 +12,7 @@ If you press 'google.co.kr' string, it will change to 'facebook.com'.<br>
 3. Module hiding<br>
 You can't see this rootkit module, with lsmod command.<br>
 <br>
-4. File copy don't allow (file mov don't allow)<br>
+4. File copy don't allow (file move don't allow)<br>
 Denial, if you try file copy.<br>
 <br>
 4. Root backdoor<br>
