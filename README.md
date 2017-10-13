@@ -20,11 +20,5 @@ A long time ago, i tested rootkit in 32bit Linux kernel 2.6.35 version.<br>
 &nbsp;You can privilege escalation to root user.<br>
 <br>
 <br>
-### Build
-make<br>
-cd app && make<br>
-<br>
-<br>
-### Usage
-insmod rootkit.ko<br>
-app/kdae<br>
+### Build<br>
+AAAA
