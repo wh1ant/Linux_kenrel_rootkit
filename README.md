@@ -3,13 +3,13 @@ A long time ago, i tested rootkit in 32bit Linux kernel 2.6.35 version.<br>
 <br>
 <br>
 ### Build<br>
-make<br>
-cd app && make<br>
+&#35;make<br>
+&#35;cd app && make<br>
 <br>
 <br>
 ### Usage<br>
-insmod rootkit.ko<br>
-app/kdae<br>
+&#35;insmod rootkit.ko<br>
+&#35;app/kdae<br>
 <br>
 <br>
 ### Rootkit skill
