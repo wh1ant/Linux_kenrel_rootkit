@@ -39,7 +39,7 @@ static struct input_handler * p_kbd_handler=(struct input_handler*)0xc09e9668;  
 static struct input_handle * h_handle;
 static void (*org_kbd_event)(struct input_handle *handle, unsigned int event_type, unsigned int event_code, int value);
 
-extern char buffer[30];
+extern char g_buffer[30];
 extern wait_queue_head_t wait_queue_read;
 extern int mask;
 
@@ -194,7 +194,7 @@ inline void key_processor(unsigned long scancode)
 	if(ptr==NULL)
 		return;
 
-	strcpy(buffer, ptr);
+	strcpy(g_buffer, ptr);
 	mask |= POLLIN | POLLRDNORM;
 	wake_up_interruptible(&wait_queue_read);
 }

@@ -12,7 +12,6 @@
 
 #include "char_dev.h"
 
-extern char buffer[100];
 
 DECLARE_WAIT_QUEUE_HEAD(wait_queue_read);
 int read_start = 5;
